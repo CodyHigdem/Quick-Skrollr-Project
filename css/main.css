@@ -108,6 +108,7 @@ main { }
         color: #fff;
         position: relative;
         background-size: auto 45px;
+        background-attachment: fixed;
     }
     .boxer {
         width: 45%;
