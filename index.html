@@ -74,14 +74,12 @@
         <script type="text/javascript">
         //initiate the skroller
         var s = skrollr.init(    {
-    render: function(data) {
-        //Log the current scroll position.
-        //console.log(data.curTop);
-        $('#offset').text('Current Top ' + data.curTop);
-    }
-});
-
-
+            render: function(data) {
+                //Log the current scroll position.
+                //console.log(data.curTop);
+                $('#offset').text('Current Top ' + data.curTop);
+            }
+        });
         </script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
