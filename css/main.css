@@ -57,8 +57,8 @@ textarea {
 }
 
 
-/* ===== Parallax Master Class ==============================================
-   Author: Petr Tichy - ihatetomatoes.net
+/* ===================================================
+   Author: Petr Tichy
    ========================================================================== */
 
 body {
@@ -96,10 +96,12 @@ body {
 
 /* =Header */
 header {
-    background: url('../img/bcg_header_s.jpg') no-repeat top center;
+    background: #222222 url('../img/bcg_header_s.jpg') no-repeat top center;
     color: #fff;
     text-align: center;
     padding: 140px 0 20px 0;
+    position: relative;
+    z-index: 2;
 }
     header h1 {
         font-size: 1.5em;
@@ -119,6 +121,7 @@ main { }
         position: relative;
         background-size: auto 45px;
         background-attachment: fixed;
+    z-index: 2;
     }
     .boxer {
         width: 45%;
@@ -192,6 +195,8 @@ main { }
 footer {
     background-color: #ffffff;
     text-align: center;
+    position: relative;
+    z-index: 2;
 }
 
 
@@ -270,10 +275,11 @@ footer {
             height: 654px;
             background: url('../img/bcg_ring.png') no-repeat top right;
             background-size: 718px 654px;
-            position: absolute;
-            top: 130px;
+            position: fixed;
+            top: 50%;
             left: 50%;
             margin-left: -359px;
+            margin-top: -327px;
         }
     /* =Footer */
 }
