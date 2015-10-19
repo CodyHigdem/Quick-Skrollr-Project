@@ -281,6 +281,23 @@ footer {
             margin-left: -359px;
             margin-top: -327px;
         }
+        .boxerTop {
+            width: 142px;
+            height: 123px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: -240px 0 0 -200px;
+        }
+            .boxerTopA{
+                background: url('../img/img_boxerA-top.png') no-repeat 0 0;
+            }
+
+
+            .boxerTopB{
+                background: url('../img/img_boxerB-top.png') no-repeat 0 0;
+                margin: 50px 0 0 60px;
+            }
     /* =Footer */
 }
 
